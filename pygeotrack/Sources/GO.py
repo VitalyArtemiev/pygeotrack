@@ -57,8 +57,8 @@ class GO(object):
         print("yaw " + str(self.yaw / pi) + "PI")
 
     def printDirDeg(self):
-        print("pitch " + str(self.pitch) + "degrees")
-        print("yaw " + str(self.yaw) + "degrees")
+        print("pitch " + str(self.pitchdeg) + "degrees")
+        print("yaw " + str(self.yawdeg) + "degrees")
 
 
 
